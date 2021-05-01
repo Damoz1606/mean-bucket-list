@@ -1,0 +1,29 @@
+input {
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  border-radius: 0.23rem 0rem 0rem 0.23rem;
+}
+
+input:focus {
+  border: 1px solid rgb(0, 217, 255);
+  box-shadow: none;
+}
+
+.btn-primary {
+  border-color: rgba(199, 199, 199, 0.767);
+  background-color: rgba(199, 199, 199, 0.767);
+  color: rgb(53, 53, 53);
+}
+
+.btn-primary:hover {
+  border-color: rgba(104, 104, 104, 0.767);
+  background-color: rgba(104, 104, 104, 0.767);
+  color: rgb(0, 0, 0);
+}
+
+.btn-group {
+  padding: 0;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}

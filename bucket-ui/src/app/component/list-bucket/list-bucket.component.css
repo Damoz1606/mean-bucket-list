@@ -1,0 +1,36 @@
+input {
+  border: none;
+  background-color: transparent;
+
+  width: 100%;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+}
+
+input:focus {
+  box-shadow: none;
+  background-color: transparent;
+  color: rgb(53, 53, 53);
+}
+
+button {
+  border: none;
+  transition: all 0.3s ease;
+  color: rgb(53, 53, 53);
+}
+
+button:hover {
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  color: rgb(53, 53, 53);
+}
+
+.notification {
+  background-color: rgba(199, 199, 199, 0.767);
+  border-radius: 5px;
+}

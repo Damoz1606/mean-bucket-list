@@ -1,0 +1,12 @@
+<form #bucketForm="ngForm" (ngSubmit)="addBucket(bucketForm)">
+    <div class="form-group d-flex">
+        <input [(ngModel)]="bucket.description" type="text" name="description" class="form-control"
+            placeholder="Bucket">
+        <div class="btn-group col-sm-auto">
+            <button type="submit" class="btn btn-primary"><span class="fa fa-save"></span>
+                Save</button>
+            <button class="btn btn-danger" (click)="deleteAllBuckets()"><span class="fa fa-trash"></span>
+                Delete All</button>
+        </div>
+    </div>
+</form>
